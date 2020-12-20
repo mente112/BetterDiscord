@@ -3,9 +3,11 @@
   --app-blur: 6px;
   --app-margin: 24px;
   --app-radius: 8px;
-  --app-accent: #d73d3d;
-  --app-accent-rgb: 215,61,61;
-  --app-accent-text: #000;
+  :root {
+    --app-accent: #000 !important;
+    --app-accent-rgb: 0,0,0 !important;
+    --app-accent-text: #fff !important;
+}
   --sidebar-color: rgba(0,0,0,0.4);
   --main-content-color: rgba(0,0,0,0.2);
   --messages-color: rgba(0,0,0,0.4);
